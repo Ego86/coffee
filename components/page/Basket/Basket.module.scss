@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    >.section{
+        overflow: auto!important;
+        .footerBtn{
+        position: relative;
+        @media (max-width: 700px) {
+            bottom: -75%;
+        }
+        bottom: -64vh;
+        border-top: 1px solid ;
+        border-bottom: none;
+    }
+        >.closeHover:hover{
+            color:red;
+        }
+        >.closeHover{
+            cursor: pointer;
+            padding-left: 10px;
+        }
+        @media (max-width: 700px) {
+        overflow: scroll !important;
+        }
+        background: #fff;
+        width: 80%;
+        height: 80%;
+        >div{
+        @media (max-width: 700px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #5d3c15;
+        >button{
+            cursor: pointer;
+            text-align: center;
+            color: #fff;
+            border-radius: 5px;
+            background-color: #5d3c15;
+            border:none;
+            padding: 8px 15px;
+            color: antiquewhite;
+    }
+}
+}
+}
+.sizeBtn{
+    cursor: pointer;
+    padding: 3px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 1em;
+    border: none;
+}
+.btn{
+    display: flex;
+}
+.PopUpHidden{
+    
+position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@600&family=Raleway&family=Scada:wght@700&display=swap');
+*{
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.app{
+  overflow: hidden;
+}
+.container-header{
+  background-image: url(https://plus.unsplash.com/premium_photo-1675435646793-f6ceb239b064?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+width: 100% !important;
+  height: 100% !important;
+background: cover;
+background-repeat: no-repeat;
+}
+.header{
+  margin-top: 30px;
+  font-family: 'Martian Mono', monospace;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Scada', sans-serif;
+color: #fff;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  nav{
+     a{
+      font-size: 1.1em;
+      text-decoration: none;
+      color: #fefefe;
+      margin: 10px;
+    }
+  }
+}
+@media (max-device-width: 700px){    
+    .header{
+padding: 3px 20px;
+    }
+}
+
